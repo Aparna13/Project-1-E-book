@@ -1,0 +1,211 @@
+body {
+	background-color: 	DimGrey;
+	/*background-color: #f1c40f;*/
+}
+.pagelt{ 
+	height: 500px;
+    border-left: 2px solid #C0C0C0;
+	border-top: 2px solid #C0C0C0;
+	border-bottom: 2px solid #C0C0C0;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	text-align: center;
+	background-color: white;
+}
+
+.pagert{ 
+	height: 500px;
+	border-right: 2px solid #C0C0C0;
+	border-left: 2px solid #C0C0C0;
+	border-top: 2px solid #C0C0C0;
+	border-bottom: 2px solid #C0C0C0;
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	text-align: center;
+	background-color: white;
+
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+.roundbutton{
+
+	height: 80px;
+	width: 80px;
+	color: #FF00FF;
+	border-radius: 40px;
+	text-decoration: none;
+	position: relative;
+	bottom: 40px;
+
+}
+
+.roundsignin{
+
+	height: 80px;
+	width: 80px;
+	color: #FF00FF;
+	border-radius: 40px;
+	text-decoration: none;
+	outline: none;
+	background-color: transparent;
+	border-color: grey;
+
+}
+#name{
+	margin-top: 90px;
+	text-decoration: none;
+	height: 30px;
+	width: 70%;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 5px solid grey;
+	background-color: transparent;
+
+	
+}
+
+#rdimg{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	background-color: grey;
+	border-radius: 40px;
+	text-align: center;
+	vertical-align: center;
+
+}
+#rdimg a{
+	display: inline-block;
+	vertical-align: center;
+	bottom: 40px;
+
+}
+
+#color{
+	margin-top: 110px;
+	text-decoration: none;
+	height: 30px;
+	width: 70%;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 5px solid grey;
+	background-color: transparent;
+	
+}
+
+.heart {
+	color: #FF00FF;
+}
+
+.heartread {
+	background-color: #FF00FF;
+}
+
+.heading {
+font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 30px;
+	margin-left: 5%;
+	color: #5F5F5F;
+}
+
+.mainheading {
+font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 30px;
+	margin-left: 5%;
+	color: white;
+}
+
+.mainheading a{
+	color: white;
+}
+
+
+
+.heading1 {
+font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 30px;
+	margin-left: 5%;
+	color: #5F5F5F;
+}
+
+.booknames{
+	margin-top: 90px;
+	text-decoration: none;
+	height: 30px;
+	width: 80%;
+	text-align: left;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 30px;
+	
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 10%;
+    
+}
+
+.inline{
+	display: inline-block;
+	text-decoration: none;
+
+}
+
+.leftar{
+	font-size: 80px;
+	text-decoration: none;
+	color: grey;
+}
+
+
+
+/*.centerimg {
+    text-align: center;
+    vertical-align: middle;
+
+}*/
+
+
+
+
+.words {
+	text-align: center;
+	font-family: arial;
+	color: grey;
+	font-size: 25px;
+	vertical-align: middle;
+	display: inline-block;
+
+	/*ine-height: 300px;*/
+}
+.words:before { content: "\00a0 "; }
+
+.vertical {
+	width: 90%;
+	/*padding-top: 20%;*/
+}
+
+.words_selected{
+	text-align: center;
+	font-family: arial;
+	color: red;
+	font-size: 25px;
+	vertical-align: middle;
+	/*line-height: 300px;*/
+	background-color: yellow;
+}
+
